@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+}
+
+
+
+.jumbotron {
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	height:450px;
+}
+
+.jumbotron h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+    padding-top: 100px;
+}
+
+.jumbotron h2 {
+    margin: 15px;
+}
+
+
+.team{
+	bottom:50%;
+}
+
+
+.team img{
+	width:40%;
+	height:40%;
+	margin:100px;
+	border :1px solid black;
+
+}
+
+.team h1{
+	font-size: 60px;
+}
+
+
+
+.team p,h1,b{
+	width:70%;
+	margin-left: 100px;
+	padding: 15px;
+}
+
+.team p{
+	font-size: 22px;
+}
+
+
+
+/* Footer */
+
+footer{
+	font-size: 22px;
+	text-decoration: none;
+	color:darkslategray;
+	background-color:whitesmoke;
+	width: 100%;
+	margin-bottom: 0;
+    overflow: hidden;
+	bottom: 0;
+  	height: 20em;
+  	left: 0;
+  	position: relative;
+
+}
+
+
+
+footer a{
+	font-size:25px;
+
+	color:black;
+}
+
+footer .font-weight-bold text-uppercase mt-3 mb-4{
+	font-size:40px;
+
+}

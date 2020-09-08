@@ -1,0 +1,201 @@
+body,html{
+  height : auto;
+  font-family:sans-serif;
+  background-color: #fff;
+  text-align: center;
+}
+
+.hero-image1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/LuxuryResidential.jpg");
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/PrimeDevelopment.jpg");
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.hero-image3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Designer.jpg");
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.hero-image4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/servey.jpg");
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  font-size: 50px;
+  line-height: 1em;
+  font-stretch: extra-condensed;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.topnav {
+   top:0%;
+   right:0;
+   overflow: hidden;
+   background-color:rgba(0,0,0,0.5);
+   position: fixed;
+   width:100%;
+}
+.topnav a {
+
+   float: right;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 1.09vw 1.25vw;
+   text-decoration: none;
+   font-size: 1.45vw;
+ }
+.topnav a:hover {
+   background-color: rgba(229,232,232);
+   color: black;
+   font-size:1.49vw;
+ }
+.topnav a.active {
+   background-color:#404040;
+   color: white;
+ }
+.topnav .search-container {
+   float: right;
+ }
+.topnav input[type=text] {
+   padding: 0.46vw;
+   margin-top:0.625vw;
+   font-size: 1.328vw;
+   border: none;
+}
+.topnav .search-container button {
+   float: right;
+   padding: 0.46vw 0.781vw;
+   margin-top: 0.625vw;
+   margin-right: 1.25vw;
+   background: #ddd;
+   font-size: 1.328vw;
+   border: none;
+   cursor: pointer;
+ }
+ .topnav .search-container button:hover {
+   background: #ccc;
+ }
+
+
+#header{
+  text-align: center;
+  color:grey;
+  font-size: 50px;
+  font-weight: 100;
+  float:none;
+  color:#3a3a3af0;
+  position: relative;
+  margin: 5px;
+  padding: 30px;
+  padding-top:85px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(22, 22, 22);
+    border: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+.property{
+    position: relative;
+    top:600px;
+    margin: 15px 5px;
+    padding: 15px 5px;
+    animation:text 2s 1;
+}
+
+@keyframes text{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%
+  }
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 900px){
+  .hero-text{
+    font-size:80px;
+  }
+    img{
+        position: relative;
+        width: 14%;
+        float: left;
+    }
+    .content{
+        position: relative;
+        left: 20px;
+        top: -15px;
+        text-align: left;
+        font-size: 15px;
+        padding: 10px;
+        margin: 30px;
+    }
+    .property{
+        text-align: left;
+        margin: 10px 70px;
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   .topnav .search-container {
+     float: none;
+   }
+.topnav a, .topnav input[type=text], .topnav .search-container button {
+     float: none;
+     display: block;
+     text-align: left;
+     width: 100%;
+     margin: 0;
+     padding: 1.093vw;
+   }
+.topnav input[type=text] {
+     border: 0.0781vw solid #ccc;
+   }
+ }
