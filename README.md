@@ -1,1 +1,1 @@
-# MajorProjectVerzeo
+# Ingterior Designing Website
